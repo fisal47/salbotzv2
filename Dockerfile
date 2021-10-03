@@ -26,4 +26,4 @@ RUN ls
 
 EXPOSE 5000
 
-CMD ["npm", "node main.js"]
+CMD ["npm", "start"]
