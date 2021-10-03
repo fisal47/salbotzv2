@@ -1,7 +1,7 @@
 {
   "name": "whatsapp-bot",
   "description": "whatsapp bot build with nodejs",
-  "repository": "https://github.com/fisal47/salbotz",
+  "repository": "https://github.com/fisal47/salbotzv2",
   "logo": "https://c.top4top.io/p_2069qnvob1.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot"]
 }
