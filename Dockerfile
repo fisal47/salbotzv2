@@ -11,8 +11,8 @@ RUN apt-get update && \
   rm -rf /var/lib/apt/lists/*
 
 COPY package.json .
-RUN bash install.sh
-#RUN bash install.sh -g npm-check-updates
+RUN bash npm install
+#RUN npm install -g npm-check-updates
 #RUN ncu --upgrade
 
 RUN mkdir /salbotzv2
