@@ -11,7 +11,7 @@ RUN apt-get update && \
   rm -rf /var/lib/apt/lists/*
 
 COPY package.json .
-RUN bash npm install
+RUN npm install
 #RUN npm install -g npm-check-updates
 #RUN ncu --upgrade
 
